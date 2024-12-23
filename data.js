@@ -10,7 +10,8 @@ const products = [
         "rating": 4.5,
         "note": "",
         "stock": 20,
-        "status": "Còn hàng"
+        "status": "Còn hàng",
+        "addedAt": "2023-12-01T10:15:00"
     },
     {
         "id": "2",
@@ -23,7 +24,8 @@ const products = [
         "rating": 4.0,
         "note": "",
         "stock": 15,
-        "status": "Còn hàng"
+        "status": "Còn hàng",
+        "addedAt": "2023-12-02T14:20:00"
     },
     {
         "id": "3",
@@ -36,7 +38,8 @@ const products = [
         "rating": 4.8,
         "note": "",
         "stock": 50,
-        "status": "Còn hàng"
+        "status": "Còn hàng",
+        "addedAt": "2023-12-03T09:30:00"
     },
     {
         "id": "4",
@@ -49,7 +52,8 @@ const products = [
         "rating": 4.2,
         "note": "",
         "stock": 30,
-        "status": "Còn hàng"
+        "status": "Còn hàng",
+        "addedAt": "2023-12-04T11:45:00"
     },
     {
         "id": "5",
@@ -62,7 +66,8 @@ const products = [
         "rating": 4.6,
         "note": "",
         "stock": 25,
-        "status": "Còn hàng"
+        "status": "Còn hàng",
+        "addedAt": "2023-12-05T15:00:00"
     },
     {
         "id": "6",
@@ -75,7 +80,8 @@ const products = [
         "rating": 4.7,
         "note": "",
         "stock": 10,
-        "status": "Còn hàng"
+        "status": "Còn hàng",
+        "addedAt": "2023-12-06T13:15:00"
     },
     {
         "id": "7",
@@ -88,20 +94,22 @@ const products = [
         "rating": 4.3,
         "note": "",
         "stock": 40,
-        "status": "Còn hàng"
+        "status": "Còn hàng",
+        "addedAt": "2023-12-07T16:10:00"
     },
     {
         "id": "8",
         "name": "Bột rau má",
-        "description": "https://media.loveitopcdn.com/25/thumb/092704-bot-rau-ma-say-lanh-dalahouse.jpg",
+        "description": "Thức uống làm mát cơ thể.",
         "price": 100000,
         "category": ["Gói lớn"],
-        "image": "https://example.com/rauma.jpg",
+        "image": "https://media.loveitopcdn.com/25/thumb/092704-bot-rau-ma-say-lanh-dalahouse.jpg",
         "discount": 10,
         "rating": 4.0,
         "note": "",
         "stock": 12,
-        "status": "Còn hàng"
+        "status": "Còn hàng",
+        "addedAt": "2023-12-08T08:25:00"
     },
     {
         "id": "9",
@@ -114,7 +122,8 @@ const products = [
         "rating": 4.4,
         "note": "",
         "stock": 35,
-        "status": "Còn hàng"
+        "status": "Còn hàng",
+        "addedAt": "2023-12-09T10:50:00"
     },
     {
         "id": "10",
@@ -127,47 +136,9 @@ const products = [
         "rating": 4.7,
         "note": "",
         "stock": 18,
-        "status": "Còn hàng"
-    },
-    {
-        "id": "11",
-        "name": "Mật ong hoa nhãn",
-        "description": "Nguyên chất 100%, hương vị tự nhiên.",
-        "price": 75000,
-        "category": ["Chai nhỏ"],
-        "image": "https://www.bometagroup.com/wp-content/uploads/2021/10/mat-ong-hoa-nhan.jpg",
-        "discount": 12,
-        "rating": 4.8,
-        "note": "",
-        "stock": 28,
-        "status": "Còn hàng"
-    },
-    {
-        "id": "12",
-        "name": "Nước ép táo hữu cơ",
-        "description": "Sản phẩm hữu cơ, không đường.",
-        "price": 64000,
-        "category": ["Chai nhỏ"],
-        "image": "https://bizweb.dktcdn.net/thumb/grande/100/144/367/products/nuoc-ep-tao.png?v=1634124097170",
-        "discount": 10,
-        "rating": 4.9,
-        "note": "",
-        "stock": 22,
-        "status": "Còn hàng"
-    },
-    {
-        "id": "13",
-        "name": "Cà phê rang xay",
-        "description": "Hương vị cà phê nguyên chất, thơm ngon.",
-        "price": 92000,
-        "category": ["Túi nhỏ"],
-        "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/458/914/products/3-26889154-3d57-43e2-81e9-970bad03edcc.jpg?v=1713171503067",
-        "discount": 15,
-        "rating": 4.5,
-        "note": "",
-        "stock": 50,
-        "status": "Còn hàng"
+        "status": "Còn hàng",
+        "addedAt": "2023-12-10T14:30:00"
     }
-]
+];
 
 export default products;
